@@ -1,0 +1,24 @@
+# Large media files
+*.mov
+
+# Python / VirtualEnv
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+.env
+
+# System Generated
+.system_generated/
+
+# Database (Optional: Exclude to prevent pushing local test data)
+# Note: app.py auto-creates it if missing.
+# data/clinical_sessions.db
+# data/session_recovery.json
+# backup/
+
+# User specifically requested sample data or empty DB.
+# If you want to push the EMPTY db template, remove below line.
+# clinical_sessions.db

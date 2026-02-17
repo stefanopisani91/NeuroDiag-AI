@@ -1,0 +1,51 @@
+{
+  "id_paziente": "string (UUID)",
+  "demografici": {
+    "eta": "integer (18-90)",
+    "sesso": "string ('M', 'F')",
+    "scolarita_anni": "integer (0-25)",
+    "familiarita_disturbi_psichiatrici": "integer (0=No, 1=Sì)"
+  },
+  "sintomi_binari": {
+    "descrizione": "0 = Assente, 1 = Presente",
+    "insonnia": "integer (0/1)",
+    "anedonia": "integer (0/1)",
+    "umore_depresso": "integer (0/1)",
+    "ansia_eccessiva": "integer (0/1)",
+    "attacchi_di_panico": "integer (0/1)",
+    "agitazione_psicomotoria": "integer (0/1)",
+    "isolamento_sociale": "integer (0/1)",
+    "comportamenti_compulsivi": "integer (0/1)",
+    "euforia_grandiosita": "integer (0/1)",
+    "ridotto_bisogno_sonno": "integer (0/1)",
+    "allucinazioni_uditive": "integer (0/1)",
+    "allucinazioni_visive": "integer (0/1)",
+    "deliri": "integer (0/1)",
+    "disorganizzazione_pensiero": "integer (0/1)",
+    "apatia": "integer (0/1)",
+    "tremore_a_riposo": "integer (0/1)",
+    "bradicinesia": "integer (0/1)",
+    "rigidita_muscolare": "integer (0/1)",
+    "instabilita_posturale": "integer (0/1)",
+    "perdita_memoria_breve_termine": "integer (0/1)",
+    "disorientamento_spazio_temporale": "integer (0/1)",
+    "difficolta_linguaggio_afasia": "integer (0/1)",
+    "aprassia": "integer (0/1)"
+  },
+  "scale_psicometriche": {
+    "HAM_D": "integer (0-52) - Hamilton Depression Rating Scale",
+    "GAD_7": "integer (0-21) - Generalized Anxiety Disorder-7",
+    "PANSS_total": "integer (30-210) - Positive and Negative Syndrome Scale",
+    "PANSS_positiva": "integer (7-49)",
+    "PANSS_negativa": "integer (7-49)",
+    "UPDRS_III_semplificata": "integer (0-132) - Unified Parkinson's Disease Rating Scale (Motor Examination)",
+    "MMSE": "integer (0-30) - Mini-Mental State Examination"
+  },
+  "feature_temporali": {
+    "durata_sintomi_mesi": "integer"
+  },
+  "target_multilabel": {
+    "descrizione": "Array binario [Depressione, Ansia, Bipolare, Schizofrenia, Parkinson, Alzheimer]",
+    "valore": "array[integer] (es. [1, 0, 0, 0, 0, 0])"
+  }
+}
