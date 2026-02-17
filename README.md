@@ -25,6 +25,9 @@ Inspired by the "Progressive Triage" architecture (à la MDCalc), the applicatio
 3.  **Psychometrics**: Integration of standard clinical scales (HAM-D, GAD-7, PANSS, UPDRS, MMSE).
 4.  **AI Inference**: A neural network analyzes the holistic patient profile to suggest a probabilistic differential diagnosis.
 
+
+🚀 **[LIVE DEMO: Try now the app NeuroDiag-AI directly here](https://neurodiag-ai-medicine.streamlit.app/)** 🚀
+
 ![Demo Part 1](assets/images/demo_part1.gif)
 ![Demo Part 2](assets/images/demo_part2.gif)
 ![Demo Part 3](assets/images/demo_part3.gif)
@@ -85,6 +88,8 @@ The LLM agents (Gemini/Antigravity) acted as a high-level **"Pair Programmer"**,
 ### 🚀 Value Proposition: The "Bridge" Competence
 **NeuroDiag-AI** showcases a critical new skill set: the ability to orchestrate AI agents to transform **Bio/Medical Domain Knowledge** into a deployed, scalable, and secure software product in a fraction of the traditional development time. This is **Human-in-the-Loop** engineering at its most efficient.
 
+🚀 **[LIVE DEMO: Try now the app NeuroDiag-AI directly here](https://neurodiag-ai-medicine.streamlit.app/)** 🚀
+
 
 ## 🚀 Quickstart & Installation
 
@@ -134,6 +139,8 @@ streamlit run app/app.py
 ```
 
 The application will automatically open in your default browser at `http://localhost:8501`.
+
+🚀 **[LIVE DEMO: Try now the app NeuroDiag-AI directly here](https://neurodiag-ai-medicine.streamlit.app/)** 🚀
 
 ## 👨‍⚕️💻 About the Developer
 
