@@ -733,7 +733,7 @@ st.markdown("""
 
 c1, c2, c3 = st.columns([1, 2, 1]) 
 with c2:
-    st.image(str(BASE_DIR / "NVD.png"), use_container_width=True)
+    st.image(str(BASE_DIR / "NVD3.png"), use_container_width=True)
 
 
 # --- 6. WIZARD FLOW (Onion Logic Restored) ---
